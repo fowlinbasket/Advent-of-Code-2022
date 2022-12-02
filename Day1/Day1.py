@@ -27,6 +27,7 @@ def getHighestCalories(filePath):
             continue
         else:
             elf.addCalories(int(line))
+    f.close()
     return elves
 
 def puzzle1(filePath):
